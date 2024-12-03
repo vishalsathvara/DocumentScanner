@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Set the splash screen background -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <!-- Make the window full screen -->
+        <!-- Prevent system UI from drawing over the splash screen -->
+        <!-- Transparent status bar for an immersive look -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Transparent navigation bar -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- Handle display cutouts (notches) -->
+        <!-- Remove title -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <!-- Theme applied to the Android Window after initialization -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935594557455",
+    "project_id": "scanner-app-fed13",
+    "storage_bucket": "scanner-app-fed13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935594557455:android:8f1d857f8df738d7a9237a",
+        "android_client_info": {
+          "package_name": "com.scannerapp.broadsy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAApBNpoUWEdDYeV0mlGoRVVXiG9nDlrbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
